@@ -45,7 +45,7 @@ public class BaseClass
 			  
 			  driver=new ChromeDriver();
 			
-		 // sdriver=driver;
+		 sdriver=driver;
 		  
 		  WebDriverUtility webDriverUtility=new WebDriverUtility(driver);
 		  webDriverUtility.maximize();

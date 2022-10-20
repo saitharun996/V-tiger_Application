@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import com.genericutility.BaseClass;
+import com.genericutility.BaseClassTest;
 import com.genericutility.ExcelFileUtility;
 import com.genericutility.ListnersImplementation;
 import com.genericutility.WebDriverUtility;
@@ -17,7 +18,7 @@ import Object_Repositories.NewContactPageClass;
 
 @Listeners(ListnersImplementation.class)
 
-public class CreateConWithOrgNameTest extends BaseClass
+public class CreateConWithOrgNameTest extends BaseClassTest
 {
 	@Test(groups = "smoke")
 	public void CreateConWithOrg() throws Throwable 

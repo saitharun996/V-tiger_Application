@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.genericutility.BaseClass;
+import com.genericutility.BaseClassTest;
 import com.genericutility.JavaUtility;
 import com.genericutility.ListnersImplementation;
 import com.genericutility.PropertyFileUtility;
@@ -25,7 +26,7 @@ import Object_Repositories.OrganizationInfoPage;
 
 @Listeners(ListnersImplementation.class)
 
-public class CreateOrganisationWithIndTest extends BaseClass
+public class CreateOrganisationWithIndTest extends BaseClassTest
 {
 	@Test(groups = "smoke")
 	public void CreateOrgWithTest() throws Throwable

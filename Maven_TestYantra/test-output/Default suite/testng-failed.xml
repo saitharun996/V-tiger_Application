@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPracticeTest.Amazon">
+      <class name="TestNGPracticeTest.CreateOrganisationTest">
         <methods>
-          <include name="amazon"/>
+          <include name="databaseDisconnect"/>
+          <include name="closebrowser"/>
+          <include name="databaseConnection"/>
+          <include name="CreateOrg"/>
+          <include name="logoutfromapp"/>
+          <include name="launchBrowser"/>
+          <include name="logintoApp"/>
         </methods>
-      </class> <!-- TestNGPracticeTest.Amazon -->
+      </class> <!-- TestNGPracticeTest.CreateOrganisationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
