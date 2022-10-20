@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGPracticeTest.CreateOrganisationWithIndTest">
+        <methods>
+          <include name="databaseDisconnect"/>
+          <include name="closebrowser"/>
+          <include name="databaseConnection"/>
+          <include name="CreateOrgWithTest"/>
+          <include name="logoutfromapp"/>
+          <include name="launchBrowser"/>
+          <include name="logintoApp"/>
+        </methods>
+      </class> <!-- TestNGPracticeTest.CreateOrganisationWithIndTest -->
+      <class name="TestNGPracticeTest.CreateConWithOrgNameTest">
+        <methods>
+          <include name="databaseDisconnect"/>
+          <include name="closebrowser"/>
+          <include name="databaseConnection"/>
+          <include name="CreateConWithOrg"/>
+          <include name="logoutfromapp"/>
+          <include name="launchBrowser"/>
+          <include name="logintoApp"/>
+        </methods>
+      </class> <!-- TestNGPracticeTest.CreateConWithOrgNameTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
