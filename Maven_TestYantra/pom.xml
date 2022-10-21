@@ -3,7 +3,7 @@
 	<groupId>Maven_TestYantra</groupId>
 	<artifactId>Maven_TestYantra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -69,28 +69,28 @@
 
 
 	</dependencies>
-<profiles>
-<profile>
-<id>smoke</id>
-<build>
-<plugins>
-   
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M7</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testngBatch.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-   
-</plugins>
-</build>
-</profile>
-</profiles>
-		<properties>
+	<profiles>
+		<profile>
+			<id>smoke</id>
+			<build>
+				<plugins>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M7</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testngsmoke.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
