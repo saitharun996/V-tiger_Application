@@ -23,5 +23,6 @@ public class Amazon
 	  System.out.println(driver.getTitle());
 	  
 	  Assert.assertEquals(false, false);
+	  System.out.println("print");
   }
 }
