@@ -9,6 +9,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TestNGPracticeTest.CreateConWithOrgNameTest"/>
+   <class name="TestNGPracticeTest.CreateOrganisationWithIndTest"/>
+<class name="TestNGPracticeTest.CreateOrganisationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
