@@ -1,67 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T09:49:59 IST" name="Suite" finished-at="2022-10-21T09:51:28 IST" duration-ms="88818">
+  <suite started-at="2022-11-01T13:23:32 IST" name="Default suite" finished-at="2022-11-01T13:23:45 IST" duration-ms="12518">
     <groups>
-      <group name="smoke">
-        <method signature="CreateConWithOrgNameTest.CreateConWithOrg()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" name="CreateConWithOrg" class="TestNGPracticeTest.CreateConWithOrgNameTest"/>
-        <method signature="CreateOrganisationWithIndTest.CreateOrgWithTest()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" name="CreateOrgWithTest" class="TestNGPracticeTest.CreateOrganisationWithIndTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-10-21T09:49:59 IST" name="Test" finished-at="2022-10-21T09:51:28 IST" duration-ms="88818">
-      <class name="TestNGPracticeTest.CreateConWithOrgNameTest">
-        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:49:59 IST" name="dataBaseConnection" finished-at="2022-10-21T09:49:59 IST" duration-ms="18" status="PASS">
+    <test started-at="2022-11-01T13:23:32 IST" name="Default test" finished-at="2022-11-01T13:23:45 IST" duration-ms="12518">
+      <class name="com.crm.vtiger.extent_reports.ExtentReportTest">
+        <test-method signature="createReport()[pri:0, instance:com.crm.vtiger.extent_reports.ExtentReportTest@3b6ddd1d]" started-at="2022-11-01T13:23:33 IST" name="createReport" finished-at="2022-11-01T13:23:45 IST" duration-ms="12425" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataBaseConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:49:59 IST" name="launchBrowser" finished-at="2022-10-21T09:50:08 IST" duration-ms="8372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:50:08 IST" name="logintoApp" finished-at="2022-10-21T09:50:15 IST" duration-ms="7766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="CreateConWithOrg()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:50:15 IST" name="CreateConWithOrg" finished-at="2022-10-21T09:50:44 IST" duration-ms="28782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateConWithOrg -->
-        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:50:44 IST" name="logoutfromApp" finished-at="2022-10-21T09:50:48 IST" duration-ms="3979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutfromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:50:48 IST" name="closeBrowser" finished-at="2022-10-21T09:50:48 IST" duration-ms="197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="disConnectDatavbase()[pri:0, instance:TestNGPracticeTest.CreateConWithOrgNameTest@7d4f9aae]" started-at="2022-10-21T09:51:28 IST" name="disConnectDatavbase" finished-at="2022-10-21T09:51:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disConnectDatavbase -->
-      </class> <!-- TestNGPracticeTest.CreateConWithOrgNameTest -->
-      <class name="TestNGPracticeTest.CreateOrganisationWithIndTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" started-at="2022-10-21T09:50:48 IST" name="launchBrowser" finished-at="2022-10-21T09:50:54 IST" duration-ms="5767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" started-at="2022-10-21T09:50:54 IST" name="logintoApp" finished-at="2022-10-21T09:51:03 IST" duration-ms="9281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="CreateOrgWithTest()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" started-at="2022-10-21T09:51:03 IST" name="CreateOrgWithTest" finished-at="2022-10-21T09:51:22 IST" duration-ms="19027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOrgWithTest -->
-        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" started-at="2022-10-21T09:51:22 IST" name="logoutfromApp" finished-at="2022-10-21T09:51:28 IST" duration-ms="5130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutfromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGPracticeTest.CreateOrganisationWithIndTest@272113c4]" started-at="2022-10-21T09:51:28 IST" name="closeBrowser" finished-at="2022-10-21T09:51:28 IST" duration-ms="399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGPracticeTest.CreateOrganisationWithIndTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- createReport -->
+      </class> <!-- com.crm.vtiger.extent_reports.ExtentReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

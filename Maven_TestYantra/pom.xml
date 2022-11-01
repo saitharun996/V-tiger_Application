@@ -13,6 +13,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.4.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -88,7 +95,7 @@
 				</plugins>
 			</build>
 		</profile>
-        <profile>
+		<profile>
 			<id>smoke</id>
 			<build>
 				<plugins>
@@ -104,9 +111,9 @@
 					</plugin>
 				</plugins>
 			</build>
-		
-         </profile>
-           <profile>
+
+		</profile>
+		<profile>
 			<id>Parallel</id>
 			<build>
 				<plugins>
@@ -122,9 +129,9 @@
 					</plugin>
 				</plugins>
 			</build>
-		
-         </profile>
-       <profile>
+
+		</profile>
+		<profile>
 			<id>regression</id>
 			<build>
 				<plugins>

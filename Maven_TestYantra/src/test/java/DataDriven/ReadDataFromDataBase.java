@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.mysql.jdbc.Driver;
 
-public class ReadDataFromDataBase 
+public class ReadDataFromDataBase
 {
 	
 	@Test
