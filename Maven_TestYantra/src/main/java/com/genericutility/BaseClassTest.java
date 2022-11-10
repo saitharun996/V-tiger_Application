@@ -1,5 +1,12 @@
 package com.genericutility;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -73,4 +80,25 @@ public class BaseClassTest
 		homePageClass.signout(driver);
 
 	}
+	
+	public static String takesScreenshot(String name)
+	{
+		TakesScreenshot ts=(TakesScreenshot)BaseClassTest.sdriver;
+		File src= ts.getScreenshotAs(OutputType.FILE);
+		String path = "./Screenshot/"+name+".PNG";
+		
+		File dest=new File(path);
+		try{
+			FileUtils.moveFile(src, dest);
+		}
+		
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		
+		return path;
+		
+	}
+		
 }
