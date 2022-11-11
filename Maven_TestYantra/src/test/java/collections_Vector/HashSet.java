@@ -12,7 +12,7 @@ public class HashSet {
 		s.add(5);
 		s.add(33);
 		
-		Sys
+		System.out.println(s);
 
 	}
 

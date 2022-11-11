@@ -10,7 +10,7 @@ public class Treeset_Set {
 		TreeSet t=new  TreeSet();
 		t.add(25);
 		t.add(6);
-		t.add(4)
+		t.add(4);
 	//	t.add("sai");
 	//   t.add(null);
 	//	t.add(null);
