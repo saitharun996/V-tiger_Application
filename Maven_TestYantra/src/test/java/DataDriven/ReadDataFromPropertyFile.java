@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class ReadDataFromPropertyFile {
 
-	public static void main(String[] args) throws Throwable 
+	public static void main(String[] args) throws Throwable
 	{
 		//Step 1 Convert Properties file to java object
 		

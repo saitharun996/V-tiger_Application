@@ -10,8 +10,9 @@ public class JavaUtility {
 		
 		int randomNum = r.nextInt(1000);
 		
-		//System.out.println(randomNum);
+		System.out.println(randomNum);
 		return randomNum;
+		
 	}
 
 }
